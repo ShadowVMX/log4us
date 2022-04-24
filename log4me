@@ -9,7 +9,7 @@ echo " "
 figlet log4me
 echo " "
 sleep 1.5
-echo "$(tput setaf 1)V3rs10n 0.2"
+echo "$(tput setaf 1)V3rs10n 0.3"
 echo ""
 echo "Developed by ShadowVMX"
 echo " "
@@ -49,7 +49,7 @@ if [[ $? == 0 ]] ; then
 	echo " "
 	sleep 2.5
 	echo " "
-	echo "$(tput setaf 7)[*]Usuarios: " ; cat /var/log/auth.log | grep -i "Failed" | cut -d" " -f11 && cat /var/log/auth.log | grep -i "Accepted" | cut -d" " -f9 | sort -u
+	echo "$(tput setaf 7)[*]Usuarios: " ; grep -oP '(?<=user )[^ ]*' /var/log/auth.log | cut -d "(" -f1 | sort | uniq | grep -v "unknown" 
 	sleep 2.5
 	echo " "
 	echo " "
