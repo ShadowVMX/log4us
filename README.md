@@ -28,8 +28,11 @@ En caso negativo, nuestra herramienta simplemente se saldrá automáticamente si
 En caso de reporte positivo veremos el OUTPUT de nuestra herramienta, por lo que nos reportará información bastante importante y relevante:
 
   1-Las IPs que han tratado de conectarse (Tanto privadas como públicas).
+  
   2-Las conexiones que han fallado (contraseña inválida).
+  
   3-Nombres de usuarios que han probado para conectarse al sistema.
+  
   4- Contraseñas válidas, por lo que el login ha sido positivo (se reportará como peligro junto con el puerto para poder cortar comunicación rápidamente).
   
   
