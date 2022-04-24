@@ -57,10 +57,16 @@ En caso de reporte positivo veremos el OUTPUT de nuestra herramienta, por lo que
         1- Las direcciones IP seguían mezclándose con el nombre de usuario, incluso se reporta repeticción de nombres + unknowns.
       
   ## Versión 0.3 --
-    - Herramienta completamente útil con reporte sin repeticiones y sencilla de usuarios.
-      {No hay reportes hasta el momento.}
+    - Herramienta completamente útil con reporte, y fallos anteriores completamente eliminados.
+      {Reportado un fallo.}
       
-      + Se ha arreglado la mezcla de IP con usuario y repetición + generación de unknown.
+      1- Se ha detectado repetición de conexiones fallidas o exitosas llenando de ruido innecesario el output.
+      
+  ## Versión 0.4 --
+    - Herramienta libre de fallos con reporte útil para intrusión.
+    {No hay reportes.}
+    
+    + Reporte válido y fallos eliminados.
     
   
   
