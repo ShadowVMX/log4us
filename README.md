@@ -23,7 +23,8 @@ Una vez ejecutemos la herramienta, esta reportará por consola la presencia o no
 
 En caso negativo, nuestra herramienta simplemente se saldrá automáticamente sin reportar nada puesto que necesita del auth.log que se generar gracias al rsyslog del sistema.
 
-![log4me 3](https://user-images.githubusercontent.com/92258683/164952464-494fdb2d-2090-43b3-8de7-616358b1eb2c.png)
+![log4me 3](https://user-images.githubusercontent.com/92258683/164952612-6538de90-bfba-4847-99df-aa8b4105ae2e.png)
+
 
 
 En caso de reporte positivo veremos el OUTPUT de nuestra herramienta, por lo que nos reportará información bastante importante y relevante:
