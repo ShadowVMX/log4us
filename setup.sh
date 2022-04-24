@@ -12,6 +12,7 @@ chmod +x log4me
 #apt upgrade
 
 #Reiniciamos ssh por si queremos regenerar el auth.
+#La comento por la gran importancia que tiene reiniciar un servicio ssh sin saberlo.
 #service ssh restart
 
 #Trataremos de generar el auth.log en caso de que el Admin no lo sepa.
