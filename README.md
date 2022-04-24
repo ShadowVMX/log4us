@@ -44,7 +44,7 @@ En caso de reporte positivo veremos el OUTPUT de nuestra herramienta, por lo que
   
   
   ## Versión 0.1 --
-    - Herramienta en desarrollo con detección de usuarios.
+    - Herramienta en desarrollo con detección de intrusión.
       {Reportados varios fallos.}
       
         1- Se mostraban los usuarios sin orden y mezclados con más líneas que contenían otra información.
