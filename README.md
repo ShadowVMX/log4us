@@ -47,13 +47,20 @@ En caso de reporte positivo veremos el OUTPUT de nuestra herramienta, por lo que
     - Herramienta en desarrollo con detección de usuarios.
       {Reportados varios fallos.}
       
+        1- Se mostraban los usuarios sin orden y mezclados con más líneas que contenían otra información.
+        2- Las direcciones IP mostradas se mezclaban con los usuarios.
+        
   ## Versión 0.2 --
     - Herramienta con fallo de múltiples líneas y letras para usuarios corregidas.
       {Reportados varios fallos.}
       
+        1- Las direcciones IP seguían mezclándose con el nombre de usuario, incluso se reporta repeticción de nombres + unknowns.
+      
   ## Versión 0.3 --
     - Herramienta completamente útil con reporte sin repeticiones y sencilla de usuarios.
       {No hay reportes hasta el momento.}
+      
+      + Se ha arreglado la mezcla de IP con usuario y repetición + generación de unknown.
     
   
   
