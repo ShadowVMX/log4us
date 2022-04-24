@@ -43,3 +43,18 @@ En caso de reporte positivo veremos el OUTPUT de nuestra herramienta, por lo que
   Para poneros en contacto conmigo --> juanmacoello94@gmail.com
   
   
+  ## Versión 0.1 --
+    - Herramienta en desarrollo con detección de usuarios.
+      {Reportados varios fallos.}
+      
+  ## Versión 0.2 --
+    - Herramienta con fallo de múltiples líneas y letras para usuarios corregidas.
+      {Reportados varios fallos.}
+      
+  ## Versión 0.3 --
+    - Herramienta completamente útil con reporte sin repeticiones y sencilla de usuarios.
+      {No hay reportes hasta el momento.}
+    
+  
+  
+  
