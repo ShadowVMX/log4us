@@ -9,7 +9,7 @@ echo " "
 figlet log4me
 echo " "
 sleep 1.5
-echo "$(tput setaf 1)V3rs10n 0.3"
+echo "$(tput setaf 1)V3rs10n 0.4"
 echo ""
 echo "Developed by ShadowVMX"
 echo " "
